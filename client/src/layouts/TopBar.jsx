@@ -3,11 +3,10 @@ import { Link, Outlet } from "react-router";
 export default function TopBar() {
     return (
         <>
-            <header className="bg-gray-900 text-gray-100 py-4 shadow-md flex flex-col sm:flex-row items-center justify-between px-6">
+            <header className="fixed w-screen z-[29] top-0 bg-gray-900 text-gray-100 py-4 shadow-md flex flex-col sm:flex-row items-center justify-between px-6">
                 <div className="text-2xl font-semibold flex items-center gap-2">
                     <span role="img" aria-label="notebook">
                         <Link to={'/HomePage'}>
-                            {/* Changed icon to a notebook style */}
                             <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="none" viewBox="0 0 24 24">
                                 <rect x="4" y="3" width="16" height="18" rx="2" fill="#8b5cf6"/>
                                 <rect x="7" y="7" width="10" height="2" rx="1" fill="#fff"/>
@@ -32,7 +31,7 @@ export default function TopBar() {
                 <Outlet />
             </main>
             <footer className="bg-gray-900 text-gray-400 py-4 text-center border-t border-gray-800 fixed bottom-0 left-0 w-full z-10">
-                © {new Date().getFullYear()} Notes App. All rights reserved.
+                © {new Date().getFullYear()} Diary App. All rights reserved.
             </footer>
         </>
     );

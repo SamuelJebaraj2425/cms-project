@@ -1,6 +1,6 @@
 export default function SignUp() {
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-700">
+    <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-700 dark:from-gray-900 dark:via-violet-900 dark:to-black">
       <div className="bg-gray-800 p-8 rounded-lg shadow-lg w-96 border border-gray-700 border-2 border-violet-700">
         <h2 className="text-2xl font-bold mb-6 text-center text-white">Sign Up</h2>
         <form>
