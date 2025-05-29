@@ -14,10 +14,8 @@ export default function About() {
                 <h2 className="text-2xl font-semibold mb-2 text-fuchsia-400">Features</h2>
                 <ul className="list-disc list-inside mb-6 text-gray-200">
                     <li className="marker:text-cyan-400 hover:text-cyan-300 transition-colors">Fast and modern user interface</li>
-                    <li className="marker:text-fuchsia-400 hover:text-fuchsia-300 transition-colors">Easy content editing and management</li>
-                    <li className="marker:text-emerald-400 hover:text-emerald-300 transition-colors">Secure authentication</li>
-                    <li className="marker:text-orange-400 hover:text-orange-300 transition-colors">Responsive design for all devices</li>
-                    <li className="marker:text-indigo-400 hover:text-indigo-300 transition-colors">Customizable themes</li>
+                    
+                    
                 </ul>
                 <h2 className="text-2xl font-semibold mb-2 text-emerald-400">Contact Us</h2>
                 <p className="text-gray-200">
