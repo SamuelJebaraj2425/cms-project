@@ -6,6 +6,8 @@ import PageNotFound from "../pages/PageNotFound";
 import TopBar from "../layouts/TopBar";
 import About from "../pages/About";
 import DeveloperPage from "../pages/DeveloperPage";
+import AsideBar from "../layouts/AsideBar";
+import AddData from "../pages/dashboard/AddData";
 
 export default function AppRoutes() {
   return (
@@ -18,6 +20,9 @@ export default function AppRoutes() {
         <Route path="/About" element={<About/>} />
         <Route path="/DeveloperPage" element={<DeveloperPage />} />
       </Route>
+      {/* <Route path="/AsideBar" element={<AsideBar />} >
+        <Route index element={<AddData />} />
+      </Route> */}
       {/* <Route
         path="/dashboard"
         element={(
